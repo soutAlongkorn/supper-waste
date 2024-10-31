@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สะสมแต้มและแลกรางวัล</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>สะสมแต้มและแลกรางวัล</h1>
+        </header>
+        <main>
+            <button id="scan-button">สแกนคิวอาร์โค้ด</button>
+            <div id="qr-result" class="hidden"></div>
+            <div id="points">คะแนนคงเหลือ: <span id="points-value">0</span> แต้ม</div>
+            <div id="prizes" class="hidden">
+                <h2>รางวัลที่สามารถแลกได้</h2>
+                <ul id="prize-list"></ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
